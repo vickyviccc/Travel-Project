@@ -8,6 +8,16 @@ body {
     margin: 0 auto;
 }
 
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
 header {
     background-image: url("images/guanajuato-5838206_1280.jpg") ;
 
@@ -53,7 +63,46 @@ header a {
     display: inline-block;
 }
 
-@media (max-width: 900px) {
+
+
+footer {
+color: white;
+background-image: url(images/pexels-photo-763429.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px 0;
+}
+
+
+footer h3 {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    font-weight: 400;
+
+  
+    opacity: 1;
+
+}
+
+img {
+    max-width: 20px;
+}
+@media (max-width: 960px) {
     header {
         padding: 60px 0px;
     }

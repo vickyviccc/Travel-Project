@@ -11,11 +11,12 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 section {
     max-width: 1200px;
     margin: 0 auto; 
+    padding: 100px 0;
 }
 
 header {
@@ -64,13 +65,42 @@ header a {
 }
 
 
+main {
+    background-color: white;
+}
+
+main h2 {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    opacity: 0.3;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.7;
+}
 
 footer {
 color: white;
-background-image: url(images/pexels-photo-763429.jpeg);
+background-image: url(images/mexico-city-2719368_1280.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding: 100px 0;
+
 }
 
 

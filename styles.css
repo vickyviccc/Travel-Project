@@ -15,19 +15,62 @@ body {
     grid-gap: 50px;
 }
 
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+
+
+
+}
+
+.card {
+
+    background-color: white;
+    margin: 30px 0;
+
+}
+
+.card-body {
+    margin: 30px 0;
+}
+
+.text-center {
+    text-align: center;
+}
 
 .img-responsive {
-    max-width:100%;
+    max-width: 100%;
+        display: block;
 }
+
+.btn {
+
+display: block;
+color: black;
+padding: 16px;
+background-color: white;
+border: 1px solid;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+
+
 img {
     max-width: 100%;
 }
 section {
-    max-width: 1200px;
+  max-width: 100%;
     margin: 0 auto; 
-    padding: 100px 0;
+    padding: 100px;
 }
 
+
+section.secondary {
+    background:white;
+}
 header {
     background-image: url("images/guanajuato-5838206_1280.jpg") ;
 
@@ -104,6 +147,22 @@ main p {
     opacity: 0.7;
 }
 
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: black;
+    margin: 0;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: black;
+    margin: 0;
+}
+
 footer {
 color: white;
 background-image: url(images/mexico-city-2719368_1280.jpg);
@@ -169,6 +228,11 @@ footer a {
     .grid {
         grid-template-columns: 1fr;
         grid-gap: 32px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+            grid-gap: 32px;
     }
 
     section {
